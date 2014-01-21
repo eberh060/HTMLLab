@@ -1,0 +1,44 @@
+body {
+    background-color: cornsilk;
+    color: dimgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style:circle;
+}
+
+em {
+    background-color:lightgrey;
+}
+
+td em, h3 {
+    color:darkblue;
+}
+
+footer{
+    font-size:small;
+}
+
+a:visited {
+    color:cyan;
+}
+
+a:hover {
+    color:darkblue;
+}
+
+#subpage {
+    background-color: white;
+    color: darkblue;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+#subpage li {
+    list-style: square;
+}
+
+.backgr {
+    background-color:lightsalmon;
+}
