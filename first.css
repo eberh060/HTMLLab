@@ -12,7 +12,7 @@ h1 {
 #Nav {
     background-color: mediumpurple;
     width: 20%;
-    min-width: 125px;
+    min-width: 140px;
     height: 400px;
 
 }
@@ -29,7 +29,7 @@ td em, h3 {
     color:darkblue;
 }
 
-footer{
+#footer {
     font-size:small;
     text-align: center;
 }
@@ -48,7 +48,13 @@ a:hover {
     margin-left: 50px;
     margin-right: 100px;
 }
-
+#Welcome {
+    color: darkgray;
+    text-align: center;
+    font-family: fantasy;
+    text-decoration: underline;
+    font-size: large;
+}
 #subpage li {
     list-style: square;
 }
