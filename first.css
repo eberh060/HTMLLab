@@ -27,7 +27,8 @@ em {
 
 table {
     float: left;
-    padding-left: 21%;
+    margin-left: 21%;
+    background-color: yellow;
 }
 
 td {
@@ -54,7 +55,7 @@ a:visited {
 }
 
 a:hover {
-    color:darkblue;
+    color:purple;
 }
 
 #subpage {
@@ -70,7 +71,7 @@ a:hover {
     font-family: fantasy;
     text-decoration: underline;
     font-size: large;
-    padding:1px;
+    padding-bottom:50px;
 
 }
 #subpage li {
@@ -86,6 +87,3 @@ a:hover {
     padding:1px;
 }
 
-.backgr {
-    background-color:white;
-}
