@@ -21,6 +21,10 @@ li {
     list-style:circle;
 }
 
+header {
+    text-align: center;
+}
+
 em {
     background-color:lightgrey;
 }
@@ -38,11 +42,11 @@ td {
 td em, th {
     color:darkblue;
 }
-
 footer {
     font-size:small;
     text-align: center;
     position: absolute;
+    left: 25%;
 }
 
 footer, img {
