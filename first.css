@@ -1,7 +1,8 @@
 body {
-    background-color: white;
+    background-color: azure;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 h1 {
@@ -15,14 +16,36 @@ h1 {
     min-width: 140px;
     height: 400px;
     float: left;
+    border-style:solid;
+    border-width:5px;
 }
 
-li {
-    list-style:circle;
+#Nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 15px 4px 15px;
+    white-space: nowrap;
+    height:12px;
+    width:89%;
+    text-align: center;
+
+
+}
+
+
+#Nav ul li {
+
+    list-style:none;
+    border-style:solid;
+    border-width: 0;
+    border-top-width:2px;
+    margin-left: -42px;
+
 }
 
 header {
     text-align: center;
+    font-size: smaller;
 }
 
 em {
@@ -31,7 +54,7 @@ em {
 
 table {
     float: left;
-    margin-left: 21%;
+    margin-left: 25%;
     background-color: yellow;
 }
 
@@ -42,7 +65,7 @@ td {
 #Larry {
     position: absolute;
     margin-top: 250px;
-    margin-left: 32%;
+    margin-left: 31%;
 }
 
 td em, th {
@@ -102,6 +125,7 @@ a:hover {
     right:50px;
     padding:1px;
 }
+
 
 
 
